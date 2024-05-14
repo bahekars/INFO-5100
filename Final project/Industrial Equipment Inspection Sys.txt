@@ -1,0 +1,112 @@
+Industrial Equipment Inspection System
+
+Design Patterns
+	- Singleton
+	- MVC
+
+Entities
+	- Organization / Enterprises
+	- Departments (Plants)
+	- Admins
+	- Roles
+	- 
+
+Branches in Git Repo
+Multiple commits
+
+Work Request
+	- Email Notification
+	- PDF Report Generation
+	- Visualization(If possible)
+	- Database -> Views & Stores Procedures
+
+
+Modules
+- Login Page
+- Dashboard -> Visualization
+- Selection Screen -> Equipments, Plants
+- Inspection Screen (JTable)
+- Inspection Submition Screen (Add Remarks) -> Redirect to dashboard after submitting.
+
+
+Roles
+- Inspector
+- Plant Manager
+- Evaluator
+- Admin
+
+
+Organizations
+- In - House
+	- Admin 
+	- Plant Manager
+
+- 3rd Party 
+	- Inspector
+	- Evaluator
+
+
+- Database Design & ERD
+
+- Use case, Sequence Diag., & class diagram
+
+- Login Page
+- Dashboard -> Visualization
+- Selection Screen
+- Inspection Screen (JTable)
+- Inspection Submition Screen (Add Remarks) -> Redirect to dashboard after submitting.
+
+
+Admin
+- Dashboard -> Visualization
+- Add Plant Manager, Inspector, & Evaluator (CRUD Screens)
+- Plant & Equipment Screen (Read Only)
+- Reports Screen  (Read Only)
+
+
+Plant Manager
+- Dashboard -> Visualization
+	Plant CRUD Screen
+		- CRUD Plant details
+			- CRUD Equipment Details(Installed in that particular plant)
+		
+
+- View Reports Screen
+	- Inspection selection list or jtable
+		- Reports of all the evaluation that he has done.
+ 
+
+Inspector
+- Dashboard 
+	- Plant Selection Screen
+
+- Inspection Screen
+ 	- Show Past Inspections
+	- Show Installed Equipments & their params (Check box JTable)
+	- Proceed
+    - Inspection Submission
+	- Add evaluator name, & remark.
+	- Generate Report
+
+- View Reports Screen
+	- Inspection selection list or jtable
+		- Reports of all the evaluation that he has done.
+
+
+Evaluator
+- Dashboard -> 
+	- View All Inspections(JTable -> showing all the inspection Assigned to him)
+	- View Reports
+
+- View Inspection Screen 
+	- Can view all the inspection related stuff
+	- Accept or Deny Buttons(End State, send email whethere good or bad)
+- View Reports Screen
+	- Inspection selection list or jtable
+		- Reports of all the evaluation that he has done.
+
+
+
+
+
+
